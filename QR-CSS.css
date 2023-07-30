@@ -1,0 +1,60 @@
+@media screen and (min-width: 376px) {
+   .div1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 340px;
+    margin: 100px auto;
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .div1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 340px;
+    margin: 20px auto;
+   }
+}
+
+body{
+    background-color: 	#d6e2f0;
+}
+
+#p1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: #1f3251;
+    text-align: center;
+}
+
+#p2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7b879d;
+    text-align: center;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    word-wrap: normal;
+    width: 340px;
+    height: 500px;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    
+    
+}
